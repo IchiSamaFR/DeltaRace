@@ -17,14 +17,13 @@ public class Advs : MonoBehaviour
     }
 
     /* Show an ad to double coins get
-     */
     public void ShowDoubleRaceAds()
     {
         var options = new ShowOptions { resultCallback = HandleShowResult };
         Advertisement.Show("rewardedVideo", options);
     }
-    /* Action by ads view
      */
+    /* Action by ads view
     private void HandleShowResult(ShowResult result)
     {
         switch (result)
@@ -39,4 +38,5 @@ public class Advs : MonoBehaviour
                 break;
         }
     }
+     */
 }
